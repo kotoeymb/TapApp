@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43C4B9AF1D12637E009B3DB9 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C4B9AE1D12637E009B3DB9 /* CollectionViewCell.m */; };
+		43C4B9B11D1299E7009B3DB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43C4B9B01D1299E7009B3DB9 /* Main.storyboard */; };
+		43D409D01D112077008058A7 /* PageImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D409CF1D112077008058A7 /* PageImageScrollView.m */; };
+		43EA3EB01D100AAC000697A4 /* ShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43EA3EAF1D100AAC000697A4 /* ShopViewController.m */; };
 		43FB20C11CF6E16000EACD0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FB20C01CF6E16000EACD0C /* main.m */; };
 		43FB20C41CF6E16000EACD0C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FB20C31CF6E16000EACD0C /* AppDelegate.m */; };
-		43FB20CD1CF6E16000EACD0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43FB20CB1CF6E16000EACD0C /* Main.storyboard */; };
 		43FB20CF1CF6E16000EACD0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43FB20CE1CF6E16000EACD0C /* Assets.xcassets */; };
 		43FB20D21CF6E16000EACD0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43FB20D01CF6E16000EACD0C /* LaunchScreen.storyboard */; };
 		43FB20DB1CF6E1BC00EACD0C /* TapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FB20DA1CF6E1BC00EACD0C /* TapViewController.m */; };
@@ -20,11 +23,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		43C4B9AD1D12637E009B3DB9 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		43C4B9AE1D12637E009B3DB9 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		43C4B9B01D1299E7009B3DB9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		43D409CE1D112077008058A7 /* PageImageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageImageScrollView.h; sourceTree = "<group>"; };
+		43D409CF1D112077008058A7 /* PageImageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageImageScrollView.m; sourceTree = "<group>"; };
+		43EA3EAE1D100AAC000697A4 /* ShopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopViewController.h; sourceTree = "<group>"; };
+		43EA3EAF1D100AAC000697A4 /* ShopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopViewController.m; sourceTree = "<group>"; };
 		43FB20BC1CF6E16000EACD0C /* GesturesDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GesturesDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43FB20C01CF6E16000EACD0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		43FB20C21CF6E16000EACD0C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		43FB20C31CF6E16000EACD0C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		43FB20CC1CF6E16000EACD0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		43FB20CE1CF6E16000EACD0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43FB20D11CF6E16000EACD0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		43FB20D31CF6E16000EACD0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -72,10 +81,10 @@
 			children = (
 				43FB20C21CF6E16000EACD0C /* AppDelegate.h */,
 				43FB20C31CF6E16000EACD0C /* AppDelegate.m */,
-				43FB20CB1CF6E16000EACD0C /* Main.storyboard */,
 				43FB20E51CF6E1FF00EACD0C /* SwipeViewController.h */,
 				43FB20E61CF6E1FF00EACD0C /* SwipeViewController.m */,
 				43FB20D91CF6E1BC00EACD0C /* TapViewController.h */,
+				43C4B9B01D1299E7009B3DB9 /* Main.storyboard */,
 				43FB20DA1CF6E1BC00EACD0C /* TapViewController.m */,
 				43FB20DC1CF6E1CE00EACD0C /* PanViewController.h */,
 				43FB20DD1CF6E1CE00EACD0C /* PanViewController.m */,
@@ -87,6 +96,12 @@
 				43FB20D01CF6E16000EACD0C /* LaunchScreen.storyboard */,
 				43FB20D31CF6E16000EACD0C /* Info.plist */,
 				43FB20BF1CF6E16000EACD0C /* Supporting Files */,
+				43EA3EAE1D100AAC000697A4 /* ShopViewController.h */,
+				43EA3EAF1D100AAC000697A4 /* ShopViewController.m */,
+				43C4B9AD1D12637E009B3DB9 /* CollectionViewCell.h */,
+				43C4B9AE1D12637E009B3DB9 /* CollectionViewCell.m */,
+				43D409CE1D112077008058A7 /* PageImageScrollView.h */,
+				43D409CF1D112077008058A7 /* PageImageScrollView.m */,
 			);
 			path = GesturesDemo;
 			sourceTree = "<group>";
@@ -156,9 +171,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43C4B9B11D1299E7009B3DB9 /* Main.storyboard in Resources */,
 				43FB20D21CF6E16000EACD0C /* LaunchScreen.storyboard in Resources */,
 				43FB20CF1CF6E16000EACD0C /* Assets.xcassets in Resources */,
-				43FB20CD1CF6E16000EACD0C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,9 +187,12 @@
 				43FB20E41CF6E1DF00EACD0C /* RotationViewController.m in Sources */,
 				43FB20DE1CF6E1CE00EACD0C /* PanViewController.m in Sources */,
 				43FB20E11CF6E1D700EACD0C /* PintchViewController.m in Sources */,
+				43D409D01D112077008058A7 /* PageImageScrollView.m in Sources */,
 				43FB20C41CF6E16000EACD0C /* AppDelegate.m in Sources */,
 				43FB20C11CF6E16000EACD0C /* main.m in Sources */,
+				43C4B9AF1D12637E009B3DB9 /* CollectionViewCell.m in Sources */,
 				43FB20DB1CF6E1BC00EACD0C /* TapViewController.m in Sources */,
+				43EA3EB01D100AAC000697A4 /* ShopViewController.m in Sources */,
 				43FB20E71CF6E1FF00EACD0C /* SwipeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -182,14 +200,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		43FB20CB1CF6E16000EACD0C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				43FB20CC1CF6E16000EACD0C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		43FB20D01CF6E16000EACD0C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -324,6 +334,7 @@
 				43FB20D81CF6E16000EACD0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
